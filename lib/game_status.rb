@@ -40,4 +40,6 @@ def over?(board)
 end
 
 def winner(board) 
+  w_comb = won?(board) 
+  board[w_comb[0]]
 end
